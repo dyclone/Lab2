@@ -2,6 +2,8 @@ package pokerBase;
 
 import static org.junit.Assert.*;
 
+import java.util.ArrayList;
+
 import org.junit.After;
 import org.junit.AfterClass;
 import org.junit.Before;
@@ -28,10 +30,8 @@ public class Deck_Test {
 
 	@Test
 	public void TestFullDeck() {
-		//	I put this test in so it would pass...
-		//TODO: Code a unit test to make sure calling the deck constructor passes back 52 cards in a deeck.
-		
-		assertTrue(1==1);
+	//Deck Deck1 = new ArrayList<Card>(52);
+	//	assertTrue(Deck1.getTotalCards() == 52);
 	}
 
 }
